@@ -14,7 +14,7 @@ public class SgtPeppers implements CompactDisc, Scannable{
 	private String artist;
 	
 	public void play() {
-		System.out.println("Playing " + title + "by" + artist);
+		System.out.println("Playing " + title + " by " + artist);
 	}
 
 	public String getTitle() {
