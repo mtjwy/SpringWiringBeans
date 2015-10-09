@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * 
  */
 @Component
-public class SgtPeppers implements CompactDisc{
+public class SgtPeppers implements CompactDisc, Scannable{
 	
 	private String title;
 	private String artist;
